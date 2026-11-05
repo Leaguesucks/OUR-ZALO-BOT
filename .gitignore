@@ -218,3 +218,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local environment variants and application state
+.env.*
+!.env.example
+.uv-cache/
+data/
+.agents/
+.codex/
+.aws/
